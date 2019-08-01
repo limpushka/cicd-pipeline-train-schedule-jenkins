@@ -27,8 +27,6 @@ task zip(type: Zip) {
 	baseName "trainSchedule"
 }
 
-
-
 //declare task dependencies
 build.dependsOn zip
 zip.dependsOn npm_build
